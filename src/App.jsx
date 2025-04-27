@@ -1,10 +1,11 @@
+import { data } from "./data/config.js"
 import TrafficLight from "./ui/TrafficLight"
 
 function App() {
 
   return (
     <>
-      <TrafficLight />
+      <TrafficLight config={data} />
     </>
   )
 }
